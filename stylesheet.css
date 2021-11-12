@@ -44,8 +44,19 @@ button{
     background-color: rgb(201, 15, 154);
 }
 button:hover {
-    background-color:rgb(177, 19, 166);
+    background-color:rgb(153, 21, 144);
 }
 .operator:hover, .equal-sign:hover {
     background-color: rgb(255, 0, 212);
 }
+footer p {
+    color: #000000;
+    font-size: 12px;
+    position: relative;
+  }
+  
+  footer {
+    padding-top: 900px;
+    padding-bottom: 20px;
+    position: relative;
+  }
