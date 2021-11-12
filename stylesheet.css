@@ -1,3 +1,10 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    background-color:rgb(255, 115, 190);
+}
 .calculator {
     text-align: center;
     margin: 0 auto;
@@ -23,7 +30,7 @@
 }
 button{
     height:80px;
-    background-color: gray;
+    background-color: rgb(128, 8, 108);
     border: 1px solid black;
     font-size: 32px;
     color: #fff;
@@ -34,11 +41,11 @@ button{
     width: 50%;
 }
 .operator, .equal-sign{
-    background-color: orange;
+    background-color: rgb(201, 15, 154);
 }
 button:hover {
-    background-color:darkgray;
+    background-color:rgb(177, 19, 166);
 }
 .operator:hover, .equal-sign:hover {
-    background-color: darkorange;
+    background-color: rgb(255, 0, 212);
 }
